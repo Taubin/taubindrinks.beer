@@ -1,3 +1,63 @@
-baseURL = "https://taubindrinks.beer/"
-languageCode = "en-us"
-title = "Taubin Drinks dot Beer"
+# Site settings
+baseurl = "https://taubindrinks.beer/"
+# HTML Language Code Reference, such as en, zh-cn
+languageCode = "en"
+title = "Taubin Drinks Beer"
+theme = "hugo-theme-cactus-plus"
+# Enter your tracking code to enable Google Analytics
+#googleAnalytics = "your_google_analytics_code"
+hasCJKLanguage = true
+
+[params]
+	name = "Dustin Plunkett"
+	description = "Home Brews and Beer Reviews"
+	bio = ""
+	# Enter optionally your twitter account
+	twitter = "taubindrinks"
+	enableRSS = false
+
+	# Disqus comment
+	disqusShortname = "your_disqus_short_name"
+	# Disable disqus comments by set `enableDisqus = "false"`
+	enableDisqus = false
+
+	enableGithubIssuesTips = false
+
+	# Enable googleAnalytics
+	enableGoogleAnalytics = false
+
+	# Add custom assets with their paths relative to the static folder
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = ""
+	about = "/about/"
+	archive = ""
+	subscribe = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = ""
+	# Sharing options and author information in posts
+	aboutAuthor = "Just a beer geek living in NZ."
+	tweet = ""
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"
+  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+  socialIconStyle = ""
+
+
+# Add additional social link entries underneath
+[social]
+	facebook-square = "https://facebook.com/CraftBeerSnob"
+  twitter-square = "https://twitter.com/taubindrinks"
